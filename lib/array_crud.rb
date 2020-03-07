@@ -10,8 +10,8 @@ def add_element_to_end_of_array
  array.push("Who")
 end
 
-def add_element_to_start_of_array(array, element)
-  array.unshift("Me") #add to beginning
+def add_element_to_start_of_array
+  array.unshift("Me") 
 end
 
 def remove_element_from_end_of_array(array)
